@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miro? Que miro?</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="miro">
+    <canvas width="700" height="500"></canvas>
+    <div class="configs">
+      <div class="color-config">
+        <input type="color" id="color" name="color" value="#000000">
+        <label for="color">color</label>
+      </div>
+      <div class="stroke-config">
+        <input type="number" id="stroke" name="stroke" value="5">
+        <label for="stroke">stroke</label>
+      </div>
+      <div class="buttons">
+        <button class="save">💾 save</button>
+        <button class="delete">❌ clean</button>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="./index.ts"></script>
+</body>
+
+</html>

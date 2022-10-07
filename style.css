@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: url('https://i.pinimg.com/736x/e3/24/50/e3245026030da8057ce317a9d7980497.jpg');
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+canvas {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.configs {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type=number] {
+  width: 100px;
+  padding: 5px;
+}
+
+input[type=color] {
+  width: 100px;
+}
+
+button {
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
